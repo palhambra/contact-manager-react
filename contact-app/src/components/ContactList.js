@@ -9,6 +9,7 @@ const ContactList = (props) => {
         <div className='content'>
           <div className='header'>{contact.name}</div>
           <div>{contact.email}</div>
+          <div></div>
         </div>
         <i className='trash alternate outline icon'></i>
       </div>
